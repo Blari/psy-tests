@@ -1,9 +1,9 @@
 <template>
-  <router-view />
+  <h1>Error page</h1>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'Error',
 };
 </script>
