@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app color="primary" dark>
+  <v-app-bar app color="primary" flat dark>
     <div class="d-flex align-center"></div>
   </v-app-bar>
 </template>
