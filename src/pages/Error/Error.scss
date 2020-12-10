@@ -1,0 +1,12 @@
+@import "../../styles/app.scss";
+
+.error-page {
+  .row {
+    justify-content: center;
+    .col {
+      height: 96vh;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
