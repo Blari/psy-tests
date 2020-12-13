@@ -11,7 +11,7 @@ import Error from "@/pages/Error/Error";
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: "history",
   routes: [
     {
       path: "/",
@@ -29,12 +29,12 @@ export default new Router({
           name: "FirstTest",
           component: TestPage,
         },
+        {
+          path: "*",
+          name: "Error",
+          component: Error,
+        },
       ],
-    },
-    {
-      path: "*",
-      name: "Error",
-      component: Error,
     },
   ],
 });
