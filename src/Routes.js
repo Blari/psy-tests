@@ -14,7 +14,7 @@ export default new Router({
   mode: "history",
   routes: [
     {
-      path: "/psy-tests/",
+      path: "/",
       name: "Layout",
       component: Layout,
       redirect: Dashboard,
