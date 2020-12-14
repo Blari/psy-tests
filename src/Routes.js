@@ -29,12 +29,12 @@ export default new Router({
           name: "FirstTest",
           component: TestPage,
         },
-        {
-          path: "*",
-          name: "Error",
-          component: Error,
-        },
       ],
+    },
+    {
+      path: "*",
+      name: "Error",
+      component: Error,
     },
   ],
 });
