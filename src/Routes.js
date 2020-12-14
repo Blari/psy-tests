@@ -6,7 +6,7 @@ import Dashboard from "@/pages/Dashboard/Dashboard";
 
 import TestPage from "@/pages/TestPage/TestPage";
 
-// import Error from "@/pages/Error/Error";
+import Error from "@/pages/Error/Error";
 
 Vue.use(Router);
 
@@ -29,11 +29,11 @@ export default new Router({
           name: "FirstTest",
           component: TestPage,
         },
-        // {
-        //   path: "*",
-        //   name: "Error",
-        //   component: Error,
-        // },
+        {
+          path: "*",
+          name: "Error",
+          component: Error,
+        },
       ],
     },
   ],
