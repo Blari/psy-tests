@@ -20,12 +20,12 @@ export default new Router({
       redirect: Dashboard,
       children: [
         {
-          path: "/dashboard",
+          path: "dashboard",
           name: "Dashboard",
           component: Dashboard,
         },
         {
-          path: "/first-test",
+          path: "first-test",
           name: "FirstTest",
           component: TestPage,
         },
